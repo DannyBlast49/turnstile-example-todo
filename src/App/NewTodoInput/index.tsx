@@ -45,6 +45,10 @@ const NewTodoTextInput: React.FC = () => {
           // eslint-disable-next-line jsx-a11y/no-autofocus
           autoFocus
         />
+        <div className="cf-turnstile" data-sitekey="0x4AAAAAAAQbM5P475JDQh1u"></div>
+        <form action="server-validation.php" method="post" target="_blank" className="g-recaptcha" data-sitekey="0x4AAAAAAAQbM5P475JDQh1u" data-callback="onSubmit" data-size="invisible" data-tabindex="0">
+          <button data-sitekey="0x4AAAAAAAQbM5P475JDQh1u" data-callback="onSubmit" data-size="invisible" data-tabindex="0">Submit</button>
+        </form>
       </header>
     </Layout>
   )
